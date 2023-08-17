@@ -23,6 +23,7 @@ body {
     height: 20vh;
     display: block;
     margin: auto;
+    padding: 1rem;
     margin-top: 6vh;
     font-size: larger;
 }
@@ -49,6 +50,7 @@ body {
     height: 20vh;
     display: block;
     margin: auto;
+    padding: 1rem;
     border: 1px solid black;
 }
 
