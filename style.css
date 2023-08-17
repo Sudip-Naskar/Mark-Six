@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@200;400&display=swap');
+
+:root{
+    --primary-color: #fcd34d;
+    
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    margin: 0px;
+    padding: 1.1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+#txt-ip{
+    width: 35rem;
+    height: 20vh;
+    display: block;
+    margin: auto;
+    margin-top: 6vh;
+    font-size: larger;
+}
+
+#btn-translate{
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+
+}
+
+.heading2{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#txt-op{
+    width: 35rem;
+    height: 20vh;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+/* .footer{
+    background-color: var(--primary-color);
+} */
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.footer-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.para{
+    display: block;
+    margin: auto;
+    max-width: 35rem;
+}
+
+.para p{
+    margin-top: 0.5rem;
+}
